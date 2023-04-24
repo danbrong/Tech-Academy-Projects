@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body class="background">
+    <div class="text-center">
+        <h1 class="display-4">Breakbot Music Video </h1>
+        <p class="intro">This is the music video for Breakbot's song, "Baby, I'm Yours"</p>
+
+
+
+    </div>
+
+    <!-- Javascript Animation Container -->
+    <p>
+        <button onclick="myMove()">Click Me!</button>
+    </p>
+
+    <div id="myContainer">
+        <div id="myAnimation">
+            Look at Me!
+        </div>
+    </div>
+
+    <!-- Video Embed -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6okxuiiHx2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
